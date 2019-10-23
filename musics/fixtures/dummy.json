@@ -1,0 +1,47 @@
+[
+{
+  "model": "musics.artist",
+  "pk": 1,
+  "fields": {
+    "name": "Beenzino"
+  }
+},
+{
+  "model": "musics.artist",
+  "pk": 2,
+  "fields": {
+    "name": "The Quiett"
+  }
+},
+{
+  "model": "musics.artist",
+  "pk": 3,
+  "fields": {
+    "name": "Dok2"
+  }
+},
+{
+  "model": "musics.music",
+  "pk": 1,
+  "fields": {
+    "artist": 1,
+    "title": "Dali van Picasso"
+  }
+},
+{
+  "model": "musics.music",
+  "pk": 2,
+  "fields": {
+    "artist": 2,
+    "title": "\uc9c4\ud759 \uc18d\uc5d0 \ud53c\ub294 \uaf43"
+  }
+},
+{
+  "model": "musics.comment",
+  "pk": 1,
+  "fields": {
+    "music": 1,
+    "content": "good"
+  }
+}
+]
